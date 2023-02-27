@@ -1,0 +1,76 @@
+body {
+  background-color: #333;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+a:hover {
+  background-color: yellow;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.p1,
+.p2 {
+  font-size: 1.6rem;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+.react {
+  width: 2%;
+  height: 2%;
+}
+
+figcaption {
+  font-size: 1.4rem;
+}
+
+hr.rounded1 {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  width: 50%;
+}
+
+hr.rounded2 {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style-position: inside;
+}
+
+li::marker {
+  content: "✨ ";
+}
+
+.mails {
+  border-radius: 15%;
+  width: 2%;
+}
+
+footer {
+  display: inline-block;
+}
